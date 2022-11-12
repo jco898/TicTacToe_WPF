@@ -1,0 +1,212 @@
+### YamlMime:ManagedReference
+items:
+- uid: TicTacToeGame.ViewInterface
+  commentId: T:TicTacToeGame.ViewInterface
+  id: ViewInterface
+  parent: TicTacToeGame
+  children:
+  - TicTacToeGame.ViewInterface.Reset
+  - TicTacToeGame.ViewInterface.SetPosition(System.Int32,System.Int32,System.Int32)
+  - TicTacToeGame.ViewInterface.ShowDraw(System.String)
+  - TicTacToeGame.ViewInterface.ShowError(System.String)
+  - TicTacToeGame.ViewInterface.ShowWin(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ViewInterface
+  nameWithType: ViewInterface
+  fullName: TicTacToeGame.ViewInterface
+  type: Interface
+  source:
+    id: ViewInterface
+    path: C:\Documents\Education\John_Abbott_College\winter_2022\TicTacToeGame (WPF)\TicTacToeGame\ViewInterface.cs
+    startLine: 6
+  assemblies:
+  - TicTacToeGame
+  namespace: TicTacToeGame
+  syntax:
+    content: public interface ViewInterface
+    content.vb: Public Interface ViewInterface
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: TicTacToeGame.ViewInterface.Reset
+  commentId: M:TicTacToeGame.ViewInterface.Reset
+  id: Reset
+  parent: TicTacToeGame.ViewInterface
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: ViewInterface.Reset()
+  fullName: TicTacToeGame.ViewInterface.Reset()
+  type: Method
+  source:
+    id: Reset
+    path: C:\Documents\Education\John_Abbott_College\winter_2022\TicTacToeGame (WPF)\TicTacToeGame\ViewInterface.cs
+    startLine: 8
+  assemblies:
+  - TicTacToeGame
+  namespace: TicTacToeGame
+  syntax:
+    content: void Reset()
+    content.vb: Sub Reset
+  overload: TicTacToeGame.ViewInterface.Reset*
+- uid: TicTacToeGame.ViewInterface.SetPosition(System.Int32,System.Int32,System.Int32)
+  commentId: M:TicTacToeGame.ViewInterface.SetPosition(System.Int32,System.Int32,System.Int32)
+  id: SetPosition(System.Int32,System.Int32,System.Int32)
+  parent: TicTacToeGame.ViewInterface
+  langs:
+  - csharp
+  - vb
+  name: SetPosition(Int32, Int32, Int32)
+  nameWithType: ViewInterface.SetPosition(Int32, Int32, Int32)
+  fullName: TicTacToeGame.ViewInterface.SetPosition(System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    id: SetPosition
+    path: C:\Documents\Education\John_Abbott_College\winter_2022\TicTacToeGame (WPF)\TicTacToeGame\ViewInterface.cs
+    startLine: 10
+  assemblies:
+  - TicTacToeGame
+  namespace: TicTacToeGame
+  syntax:
+    content: void SetPosition(int player, int row, int col)
+    parameters:
+    - id: player
+      type: System.Int32
+    - id: row
+      type: System.Int32
+    - id: col
+      type: System.Int32
+    content.vb: Sub SetPosition(player As Integer, row As Integer, col As Integer)
+  overload: TicTacToeGame.ViewInterface.SetPosition*
+- uid: TicTacToeGame.ViewInterface.ShowError(System.String)
+  commentId: M:TicTacToeGame.ViewInterface.ShowError(System.String)
+  id: ShowError(System.String)
+  parent: TicTacToeGame.ViewInterface
+  langs:
+  - csharp
+  - vb
+  name: ShowError(String)
+  nameWithType: ViewInterface.ShowError(String)
+  fullName: TicTacToeGame.ViewInterface.ShowError(System.String)
+  type: Method
+  source:
+    id: ShowError
+    path: C:\Documents\Education\John_Abbott_College\winter_2022\TicTacToeGame (WPF)\TicTacToeGame\ViewInterface.cs
+    startLine: 12
+  assemblies:
+  - TicTacToeGame
+  namespace: TicTacToeGame
+  syntax:
+    content: void ShowError(string error)
+    parameters:
+    - id: error
+      type: System.String
+    content.vb: Sub ShowError(error As String)
+  overload: TicTacToeGame.ViewInterface.ShowError*
+- uid: TicTacToeGame.ViewInterface.ShowWin(System.String)
+  commentId: M:TicTacToeGame.ViewInterface.ShowWin(System.String)
+  id: ShowWin(System.String)
+  parent: TicTacToeGame.ViewInterface
+  langs:
+  - csharp
+  - vb
+  name: ShowWin(String)
+  nameWithType: ViewInterface.ShowWin(String)
+  fullName: TicTacToeGame.ViewInterface.ShowWin(System.String)
+  type: Method
+  source:
+    id: ShowWin
+    path: C:\Documents\Education\John_Abbott_College\winter_2022\TicTacToeGame (WPF)\TicTacToeGame\ViewInterface.cs
+    startLine: 14
+  assemblies:
+  - TicTacToeGame
+  namespace: TicTacToeGame
+  syntax:
+    content: void ShowWin(string result)
+    parameters:
+    - id: result
+      type: System.String
+    content.vb: Sub ShowWin(result As String)
+  overload: TicTacToeGame.ViewInterface.ShowWin*
+- uid: TicTacToeGame.ViewInterface.ShowDraw(System.String)
+  commentId: M:TicTacToeGame.ViewInterface.ShowDraw(System.String)
+  id: ShowDraw(System.String)
+  parent: TicTacToeGame.ViewInterface
+  langs:
+  - csharp
+  - vb
+  name: ShowDraw(String)
+  nameWithType: ViewInterface.ShowDraw(String)
+  fullName: TicTacToeGame.ViewInterface.ShowDraw(System.String)
+  type: Method
+  source:
+    id: ShowDraw
+    path: C:\Documents\Education\John_Abbott_College\winter_2022\TicTacToeGame (WPF)\TicTacToeGame\ViewInterface.cs
+    startLine: 16
+  assemblies:
+  - TicTacToeGame
+  namespace: TicTacToeGame
+  syntax:
+    content: void ShowDraw(string result)
+    parameters:
+    - id: result
+      type: System.String
+    content.vb: Sub ShowDraw(result As String)
+  overload: TicTacToeGame.ViewInterface.ShowDraw*
+references:
+- uid: TicTacToeGame
+  commentId: N:TicTacToeGame
+  name: TicTacToeGame
+  nameWithType: TicTacToeGame
+  fullName: TicTacToeGame
+- uid: TicTacToeGame.ViewInterface.Reset*
+  commentId: Overload:TicTacToeGame.ViewInterface.Reset
+  name: Reset
+  nameWithType: ViewInterface.Reset
+  fullName: TicTacToeGame.ViewInterface.Reset
+- uid: TicTacToeGame.ViewInterface.SetPosition*
+  commentId: Overload:TicTacToeGame.ViewInterface.SetPosition
+  name: SetPosition
+  nameWithType: ViewInterface.SetPosition
+  fullName: TicTacToeGame.ViewInterface.SetPosition
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TicTacToeGame.ViewInterface.ShowError*
+  commentId: Overload:TicTacToeGame.ViewInterface.ShowError
+  name: ShowError
+  nameWithType: ViewInterface.ShowError
+  fullName: TicTacToeGame.ViewInterface.ShowError
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TicTacToeGame.ViewInterface.ShowWin*
+  commentId: Overload:TicTacToeGame.ViewInterface.ShowWin
+  name: ShowWin
+  nameWithType: ViewInterface.ShowWin
+  fullName: TicTacToeGame.ViewInterface.ShowWin
+- uid: TicTacToeGame.ViewInterface.ShowDraw*
+  commentId: Overload:TicTacToeGame.ViewInterface.ShowDraw
+  name: ShowDraw
+  nameWithType: ViewInterface.ShowDraw
+  fullName: TicTacToeGame.ViewInterface.ShowDraw

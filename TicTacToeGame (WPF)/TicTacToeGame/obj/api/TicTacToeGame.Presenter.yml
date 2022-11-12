@@ -1,0 +1,545 @@
+### YamlMime:ManagedReference
+items:
+- uid: TicTacToeGame.Presenter
+  commentId: T:TicTacToeGame.Presenter
+  id: Presenter
+  parent: TicTacToeGame
+  children:
+  - TicTacToeGame.Presenter.#ctor(TicTacToeGame.ViewInterface)
+  - TicTacToeGame.Presenter.GetPlayer
+  - TicTacToeGame.Presenter.NewGame
+  - TicTacToeGame.Presenter.ProcessChoice(System.Int32,System.Int32,System.Int32)
+  - TicTacToeGame.Presenter.ValidGame
+  langs:
+  - csharp
+  - vb
+  name: Presenter
+  nameWithType: Presenter
+  fullName: TicTacToeGame.Presenter
+  type: Class
+  source:
+    id: Presenter
+    path: C:\Documents\Education\John_Abbott_College\winter_2022\TicTacToeGame (WPF)\TicTacToeGame\Presenter.cs
+    startLine: 7
+  assemblies:
+  - TicTacToeGame
+  namespace: TicTacToeGame
+  syntax:
+    content: public class Presenter
+    content.vb: Public Class Presenter
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TicTacToeGame.Presenter.#ctor(TicTacToeGame.ViewInterface)
+  commentId: M:TicTacToeGame.Presenter.#ctor(TicTacToeGame.ViewInterface)
+  id: '#ctor(TicTacToeGame.ViewInterface)'
+  parent: TicTacToeGame.Presenter
+  langs:
+  - csharp
+  - vb
+  name: Presenter(ViewInterface)
+  nameWithType: Presenter.Presenter(ViewInterface)
+  fullName: TicTacToeGame.Presenter.Presenter(TicTacToeGame.ViewInterface)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Documents\Education\John_Abbott_College\winter_2022\TicTacToeGame (WPF)\TicTacToeGame\Presenter.cs
+    startLine: 12
+  assemblies:
+  - TicTacToeGame
+  namespace: TicTacToeGame
+  syntax:
+    content: public Presenter(ViewInterface v)
+    parameters:
+    - id: v
+      type: TicTacToeGame.ViewInterface
+    content.vb: Public Sub New(v As ViewInterface)
+  overload: TicTacToeGame.Presenter.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TicTacToeGame.Presenter.NewGame
+  commentId: M:TicTacToeGame.Presenter.NewGame
+  id: NewGame
+  parent: TicTacToeGame.Presenter
+  langs:
+  - csharp
+  - vb
+  name: NewGame()
+  nameWithType: Presenter.NewGame()
+  fullName: TicTacToeGame.Presenter.NewGame()
+  type: Method
+  source:
+    id: NewGame
+    path: C:\Documents\Education\John_Abbott_College\winter_2022\TicTacToeGame (WPF)\TicTacToeGame\Presenter.cs
+    startLine: 22
+  assemblies:
+  - TicTacToeGame
+  namespace: TicTacToeGame
+  summary: "\nPrepares a new game to be started.\n"
+  example: []
+  syntax:
+    content: public void NewGame()
+    content.vb: Public Sub NewGame
+  overload: TicTacToeGame.Presenter.NewGame*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TicTacToeGame.Presenter.GetPlayer
+  commentId: M:TicTacToeGame.Presenter.GetPlayer
+  id: GetPlayer
+  parent: TicTacToeGame.Presenter
+  langs:
+  - csharp
+  - vb
+  name: GetPlayer()
+  nameWithType: Presenter.GetPlayer()
+  fullName: TicTacToeGame.Presenter.GetPlayer()
+  type: Method
+  source:
+    id: GetPlayer
+    path: C:\Documents\Education\John_Abbott_College\winter_2022\TicTacToeGame (WPF)\TicTacToeGame\Presenter.cs
+    startLine: 32
+  assemblies:
+  - TicTacToeGame
+  namespace: TicTacToeGame
+  summary: "\nGets the next player&apos;s number.\n"
+  example: []
+  syntax:
+    content: public int GetPlayer()
+    return:
+      type: System.Int32
+      description: An int indicating the player.
+    content.vb: Public Function GetPlayer As Integer
+  overload: TicTacToeGame.Presenter.GetPlayer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TicTacToeGame.Presenter.ProcessChoice(System.Int32,System.Int32,System.Int32)
+  commentId: M:TicTacToeGame.Presenter.ProcessChoice(System.Int32,System.Int32,System.Int32)
+  id: ProcessChoice(System.Int32,System.Int32,System.Int32)
+  parent: TicTacToeGame.Presenter
+  langs:
+  - csharp
+  - vb
+  name: ProcessChoice(Int32, Int32, Int32)
+  nameWithType: Presenter.ProcessChoice(Int32, Int32, Int32)
+  fullName: TicTacToeGame.Presenter.ProcessChoice(System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    id: ProcessChoice
+    path: C:\Documents\Education\John_Abbott_College\winter_2022\TicTacToeGame (WPF)\TicTacToeGame\Presenter.cs
+    startLine: 43
+  assemblies:
+  - TicTacToeGame
+  namespace: TicTacToeGame
+  summary: "\nProcesses the player&apos;s choice and displays an updated board.\n"
+  example: []
+  syntax:
+    content: public void ProcessChoice(int player, int row, int col)
+    parameters:
+    - id: player
+      type: System.Int32
+      description: The player who made the choice
+    - id: row
+      type: System.Int32
+      description: The row number
+    - id: col
+      type: System.Int32
+      description: The column number
+    content.vb: Public Sub ProcessChoice(player As Integer, row As Integer, col As Integer)
+  overload: TicTacToeGame.Presenter.ProcessChoice*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TicTacToeGame.Presenter.ValidGame
+  commentId: M:TicTacToeGame.Presenter.ValidGame
+  id: ValidGame
+  parent: TicTacToeGame.Presenter
+  langs:
+  - csharp
+  - vb
+  name: ValidGame()
+  nameWithType: Presenter.ValidGame()
+  fullName: TicTacToeGame.Presenter.ValidGame()
+  type: Method
+  source:
+    id: ValidGame
+    path: C:\Documents\Education\John_Abbott_College\winter_2022\TicTacToeGame (WPF)\TicTacToeGame\Presenter.cs
+    startLine: 74
+  assemblies:
+  - TicTacToeGame
+  namespace: TicTacToeGame
+  summary: "\nChecks whether the game is still continuable.\n"
+  example: []
+  syntax:
+    content: public bool ValidGame()
+    return:
+      type: System.Boolean
+      description: True if the game hasn&apos;t been won or drawn. Otherwise, returns false.
+    content.vb: Public Function ValidGame As Boolean
+  overload: TicTacToeGame.Presenter.ValidGame*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TicTacToeGame
+  commentId: N:TicTacToeGame
+  name: TicTacToeGame
+  nameWithType: TicTacToeGame
+  fullName: TicTacToeGame
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TicTacToeGame.Presenter.#ctor*
+  commentId: Overload:TicTacToeGame.Presenter.#ctor
+  name: Presenter
+  nameWithType: Presenter.Presenter
+  fullName: TicTacToeGame.Presenter.Presenter
+- uid: TicTacToeGame.ViewInterface
+  commentId: T:TicTacToeGame.ViewInterface
+  parent: TicTacToeGame
+  name: ViewInterface
+  nameWithType: ViewInterface
+  fullName: TicTacToeGame.ViewInterface
+- uid: TicTacToeGame.Presenter.NewGame*
+  commentId: Overload:TicTacToeGame.Presenter.NewGame
+  name: NewGame
+  nameWithType: Presenter.NewGame
+  fullName: TicTacToeGame.Presenter.NewGame
+- uid: TicTacToeGame.Presenter.GetPlayer*
+  commentId: Overload:TicTacToeGame.Presenter.GetPlayer
+  name: GetPlayer
+  nameWithType: Presenter.GetPlayer
+  fullName: TicTacToeGame.Presenter.GetPlayer
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TicTacToeGame.Presenter.ProcessChoice*
+  commentId: Overload:TicTacToeGame.Presenter.ProcessChoice
+  name: ProcessChoice
+  nameWithType: Presenter.ProcessChoice
+  fullName: TicTacToeGame.Presenter.ProcessChoice
+- uid: TicTacToeGame.Presenter.ValidGame*
+  commentId: Overload:TicTacToeGame.Presenter.ValidGame
+  name: ValidGame
+  nameWithType: Presenter.ValidGame
+  fullName: TicTacToeGame.Presenter.ValidGame
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

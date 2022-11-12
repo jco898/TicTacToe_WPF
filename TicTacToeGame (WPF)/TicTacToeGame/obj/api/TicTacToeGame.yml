@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: TicTacToeGame
+  commentId: N:TicTacToeGame
+  id: TicTacToeGame
+  children:
+  - TicTacToeGame.App
+  - TicTacToeGame.MainWindow
+  - TicTacToeGame.Presenter
+  - TicTacToeGame.ViewInterface
+  langs:
+  - csharp
+  - vb
+  name: TicTacToeGame
+  nameWithType: TicTacToeGame
+  fullName: TicTacToeGame
+  type: Namespace
+  assemblies:
+  - TicTacToeGame
+references:
+- uid: TicTacToeGame.ViewInterface
+  commentId: T:TicTacToeGame.ViewInterface
+  parent: TicTacToeGame
+  name: ViewInterface
+  nameWithType: ViewInterface
+  fullName: TicTacToeGame.ViewInterface
+- uid: TicTacToeGame.App
+  commentId: T:TicTacToeGame.App
+  name: App
+  nameWithType: App
+  fullName: TicTacToeGame.App
+- uid: TicTacToeGame.MainWindow
+  commentId: T:TicTacToeGame.MainWindow
+  name: MainWindow
+  nameWithType: MainWindow
+  fullName: TicTacToeGame.MainWindow
+- uid: TicTacToeGame.Presenter
+  commentId: T:TicTacToeGame.Presenter
+  name: Presenter
+  nameWithType: Presenter
+  fullName: TicTacToeGame.Presenter
+- uid: TicTacToeGame
+  commentId: N:TicTacToeGame
+  name: TicTacToeGame
+  nameWithType: TicTacToeGame
+  fullName: TicTacToeGame

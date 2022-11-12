@@ -1,0 +1,23 @@
+{
+  "TicTacToeGame": "TicTacToeGame.yml",
+  "TicTacToeGame.App": "TicTacToeGame.App.yml",
+  "TicTacToeGame.MainWindow": "TicTacToeGame.MainWindow.yml",
+  "TicTacToeGame.MainWindow.#ctor": "TicTacToeGame.MainWindow.yml",
+  "TicTacToeGame.MainWindow.Reset": "TicTacToeGame.MainWindow.yml",
+  "TicTacToeGame.MainWindow.SetPosition(System.Int32,System.Int32,System.Int32)": "TicTacToeGame.MainWindow.yml",
+  "TicTacToeGame.MainWindow.ShowDraw(System.String)": "TicTacToeGame.MainWindow.yml",
+  "TicTacToeGame.MainWindow.ShowError(System.String)": "TicTacToeGame.MainWindow.yml",
+  "TicTacToeGame.MainWindow.ShowWin(System.String)": "TicTacToeGame.MainWindow.yml",
+  "TicTacToeGame.Presenter": "TicTacToeGame.Presenter.yml",
+  "TicTacToeGame.Presenter.#ctor(TicTacToeGame.ViewInterface)": "TicTacToeGame.Presenter.yml",
+  "TicTacToeGame.Presenter.GetPlayer": "TicTacToeGame.Presenter.yml",
+  "TicTacToeGame.Presenter.NewGame": "TicTacToeGame.Presenter.yml",
+  "TicTacToeGame.Presenter.ProcessChoice(System.Int32,System.Int32,System.Int32)": "TicTacToeGame.Presenter.yml",
+  "TicTacToeGame.Presenter.ValidGame": "TicTacToeGame.Presenter.yml",
+  "TicTacToeGame.ViewInterface": "TicTacToeGame.ViewInterface.yml",
+  "TicTacToeGame.ViewInterface.Reset": "TicTacToeGame.ViewInterface.yml",
+  "TicTacToeGame.ViewInterface.SetPosition(System.Int32,System.Int32,System.Int32)": "TicTacToeGame.ViewInterface.yml",
+  "TicTacToeGame.ViewInterface.ShowDraw(System.String)": "TicTacToeGame.ViewInterface.yml",
+  "TicTacToeGame.ViewInterface.ShowError(System.String)": "TicTacToeGame.ViewInterface.yml",
+  "TicTacToeGame.ViewInterface.ShowWin(System.String)": "TicTacToeGame.ViewInterface.yml"
+}
