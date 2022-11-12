@@ -1,1 +1,1 @@
-# TicTacToe_WPF
+# Tic Tac Toe (WPF)
